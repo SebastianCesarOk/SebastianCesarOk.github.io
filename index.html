@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mentorías | Presencia, Amor Propio & Marca Personal</title>
+  <title>Sebastian Cesar | Presencia & Marca Personal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
@@ -16,23 +16,29 @@
 
     header {
       text-align: center;
-      padding: 60px 20px;
+      padding: 60px 20px 30px;
     }
 
-    header h1 {
-      font-size: 2.4rem;
-      letter-spacing: 2px;
+    .logo {
+      max-width: 260px;
+      margin-bottom: 30px;
+      filter: drop-shadow(0 10px 25px rgba(255,255,255,0.25));
     }
 
-    header p {
-      opacity: 0.8;
-      max-width: 700px;
-      margin: 20px auto 0;
+    .hero-img {
+      max-width: 420px;
+      width: 90%;
+      border-radius: 20px;
+      box-shadow:
+        0 0 0 1px rgba(255,255,255,0.1),
+        0 25px 50px rgba(0,0,0,0.8);
+      margin: 30px auto;
+      display: block;
     }
 
     section {
       max-width: 1000px;
-      margin: 60px auto;
+      margin: 80px auto;
       padding: 0 20px;
     }
 
@@ -45,7 +51,7 @@
 
     article {
       background: #0b0b0b;
-      border-radius: 16px;
+      border-radius: 18px;
       padding: 30px;
       margin-bottom: 40px;
       box-shadow:
@@ -53,45 +59,28 @@
         0 20px 40px rgba(0,0,0,0.7);
     }
 
-    h3 {
-      font-size: 1.4rem;
-      margin-bottom: 15px;
+    .section-img {
+      width: 100%;
+      border-radius: 18px;
+      margin: 40px 0;
+      box-shadow:
+        0 0 0 1px rgba(255,255,255,0.08),
+        0 20px 40px rgba(0,0,0,0.7);
     }
 
-    h4 {
-      margin-top: 25px;
-      margin-bottom: 10px;
-      font-size: 1rem;
-      opacity: 0.9;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    ul li {
-      margin-bottom: 8px;
-    }
-
-    p {
-      opacity: 0.9;
-    }
+    h3 { margin-bottom: 15px; }
+    h4 { opacity: 0.8; text-transform: uppercase; }
 
     .price {
       font-size: 1.2rem;
-      margin-top: 15px;
       font-weight: bold;
-    }
-
-    .cta {
-      margin-top: 25px;
+      margin-top: 15px;
     }
 
     .btn {
       display: inline-block;
-      padding: 14px 28px;
+      margin-top: 20px;
+      padding: 14px 30px;
       border-radius: 30px;
       background: linear-gradient(145deg, #ffffff, #dcdcdc);
       color: #000;
@@ -99,14 +88,6 @@
       font-weight: bold;
       box-shadow:
         0 8px 20px rgba(255,255,255,0.15),
-        inset 0 1px 0 rgba(255,255,255,0.6);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .btn:hover {
-      transform: translateY(-2px);
-      box-shadow:
-        0 12px 30px rgba(255,255,255,0.25),
         inset 0 1px 0 rgba(255,255,255,0.6);
     }
 
@@ -122,7 +103,74 @@
 <body>
 
 <header>
-  <h1>BIENVENIDOS · ACCESO · CLARIDAD</h1>
+  <img src="images/logo-sebastian-cesar.png" alt="Sebastian Cesar" class="logo">
+
   <p>
-    Procesos de acompañamiento profundo orientados a la regulación interna,
-    la presencia consciente y la construcción de una marca pe
+    Presencia consciente · Regulación interna · Marca personal real  
+    Claridad, coherencia y decisión encarnada.
+  </p>
+
+  <img src="images/IMG_0758.jpg" alt="Sebastian Cesar presencia" class="hero-img">
+</header>
+
+<section>
+  <h2>Proceso de Consciencia y Regulación Interna</h2>
+
+  <article>
+    <h3>Sesión única — Puerta de entrada</h3>
+    <p>
+      No es terapia ni desahogo.  
+      Es claridad sobre el sistema interno que estás repitiendo
+      y cómo salir del automático.
+    </p>
+
+    <p class="price">USD 100</p>
+
+    <a class="btn" href="https://paypal.me/JuanCesarRodriguez" target="_blank">
+      Pagar con PayPal
+    </a>
+  </article>
+
+  <img src="images/IMG_0877.jpg" alt="Presencia y enfoque" class="section-img">
+
+  <article>
+    <h3>Proceso Individual (1:1)</h3>
+    <p>
+      Trabajo profundo y sostenido sobre el sistema nervioso,
+      los patrones automáticos y la integración real.
+    </p>
+
+    <p class="price">USD 500</p>
+
+    <a class="btn" href="https://paypal.me/JuanCesarRodriguez" target="_blank">
+      Pagar con PayPal
+    </a>
+  </article>
+</section>
+
+<section>
+  <h2>Marca Personal · Identidad · Mensaje</h2>
+
+  <img src="images/IMG_1162.jpg" alt="Identidad y marca personal" class="section-img">
+
+  <article>
+    <h3>Sesión de Marca Personal</h3>
+    <p>
+      No es branding superficial.  
+      Es coherencia entre quién sos, qué decís y qué ofrecés.
+    </p>
+
+    <p class="price">USD 100</p>
+
+    <a class="btn" href="https://paypal.me/JuanCesarRodriguez" target="_blank">
+      Pagar con PayPal
+    </a>
+  </article>
+</section>
+
+<footer>
+  © Sebastian Cesar — Presencia · Claridad · Coherencia
+</footer>
+
+</body>
+</html>
