@@ -1,0 +1,53 @@
+/* ===== ESTILOS GENERALES ===== */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #0b132b, #020617);
+  color: white;
+}
+/* ===== HISTORIA DE VIDA ===== */
+
+.historia {
+  max-width: 900px;
+  margin: 120px auto;
+  padding: 0 20px;
+}
+
+.historia h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.historia p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 30px;
+}
+
+.historia-bloque {
+  margin-bottom: 80px;
+}
+
+.historia-imgs {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.historia-imgs img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 14px;
+  opacity: 0.85;
+}
+
+@media (max-width: 768px) {
+  .historia-imgs {
+    flex-direction: column;
+    align-items: center;
+  }
+}
